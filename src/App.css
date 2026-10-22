@@ -1,0 +1,18 @@
+.App {
+  width: min(100% - 2rem, 34rem);
+  margin: 0 auto;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+img { display: block; max-width: 100%; margin: 0 auto 1.5rem; }
+
+h3 { margin: 0.65rem 0; color: #23364d; font-size: 1.15rem; font-weight: 650; }
+h3:first-of-type { color: #102a43; font-size: 2rem; letter-spacing: 0.14em; }
+h2 { color: #b5472d; font-size: 1.35rem; }
+
+button { min-width: 2.45rem; min-height: 2.45rem; margin: 0.25rem; padding: 0.45rem 0.65rem; border: 0; border-radius: 0.45rem; color: #183b56; background: #dce9f2; font: inherit; font-weight: 700; cursor: pointer; }
+button:hover { color: #fff; background: #2f80a8; }
+button:focus-visible { outline: 3px solid #eea66b; outline-offset: 3px; }
+.new-game { margin-top: 0.25rem; padding-inline: 1.25rem; color: #fff; background: #d95d39; }
+.new-game:hover { background: #b8492c; }
